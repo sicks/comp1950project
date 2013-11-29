@@ -37,11 +37,9 @@ All deliverables must be HTML5
   * Tumblr
 
 # Make sure you check in all work!
-* We will use GitHub to review eachother's work
-* Anyone can contribute to anyone elses work, but discuss if you're going to overwrite anything get approval first.
+We will use GitHub to review eachother's work. Anyone can contribute to anyone elses work, but discuss if you're going to overwrite anything get approval first.
 
-## Schedules!
-
+## Schedules
 ### Wireframes
 Jacob, come up with 3 quick layouts that address the goals we outlined in the doc
 * Clean, Simple, Straightforward
@@ -50,14 +48,16 @@ Jacob, come up with 3 quick layouts that address the goals we outlined in the do
 Due: Saturday, Nov 30th, Midnight
 
 ### Client Site & Intro Page
-Rabia, work on these throughout the week and upload them to the GitHub so we can discuss and make changes along the way.
+Rabia, work on these throughout the week and keep them updated on GitHub so we can discuss and make changes along the way.
 * index.html
 * intro.html
+
 Due: Thursday, Dec 5th, 6:30pm
 
 ### Rationale Page
-David, work on this throughout the week and upload them to the GitHub so we can discuss and make changes along the way
+David, work on this throughout the week and keep it updated on GitHub so we can discuss and make changes along the way
 * rationale.html
+
 Due: Thursday, Dec 5th, 6:30pm
 
 ### Home page, Lecture page, Tumblr Theme
@@ -65,6 +65,7 @@ These we can't do until we've decided on a layout, so we can start working on th
 * home.html
 * lecture.html
 * tumblr (we should probably make a new account for the project?)
+
 Due: Thursday, Dec 5th, 6:30pm
 
 ### The rest
