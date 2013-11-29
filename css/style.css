@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1[id], h2[id] {
+  padding-top: 80px;
+  margin-top: -40px;
+}
+
+.lecture {
+  padding-top: 40px;
+}
+
+
+li.active a {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) { 
+  .affix {
+    position: static;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .affix {
+    position: static;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .affix {
+    position: fixed;
+    top: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .affix {
+    position: fixed;
+    top: 80px;
+  }
+}
