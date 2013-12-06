@@ -15,7 +15,7 @@ article {
 }
 
 article h2 {
-  padding:5px 20px;
+  padding:10px 20px;
   margin-left: -20px;
   margin-right: -50px;
 
@@ -94,11 +94,21 @@ article ul ul {margin: 10px 0px;}
 /* Theme Rules =============================== */
 
 body {
-  background: #F5F5DC;
+  background: #fff;
+  font-family: 'Lato';
+  font-weight:400;
 }
+
 header {
   background: #7497B0;
 }
+
+h1,h2,h3 {
+  font-family: 'Montserrat';
+  font-weight:500;
+}
+
+h1,h2 {color:#eee;}
 
 article {
   background-color: rgba(33,33,33,0.1);
