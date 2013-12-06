@@ -2,9 +2,6 @@
 /* CSS Document */
 
 /* Base Rules =============================== */
-header {
-  padding-top: 10px;
-}
 
 header h1 {
   font-weight: bold;
@@ -14,7 +11,7 @@ header h1 {
 
 article {
   padding: 0px 50px 20px 20px;
-  margin: 20px 20px 20px -10px;
+  margin: 20px 0;
 }
 
 article h2 {
@@ -40,6 +37,7 @@ article p {margin-left: 20px;}
   padding: 3px;
   position: relative;
   background: #fff;
+  margin-top: 12px;
 }
 .searchinput input {
   background: none;

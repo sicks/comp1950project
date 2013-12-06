@@ -4,7 +4,7 @@ $(document).ready(function() {
   $(window).scroll(function(){
   	navWidth = determineNavWidth();
 
-  	if ( $(window).scrollTop() >= 218 ) {
+  	if ( $(window).scrollTop() >= 255 ) {
   		$("#lecture_nav").css({
   			position: 'fixed',
   			top: '10px',
@@ -26,8 +26,8 @@ $(document).ready(function() {
 
 function determineNavWidth() {
 	if ($(window).width() >= 992 && $(window).width() < 1200) {
-		return '127px';
+		return '132px';
 	} else if ($(window).width() >= 1200) {
-		return '160px';
+		return '165px';
 	}
 };
