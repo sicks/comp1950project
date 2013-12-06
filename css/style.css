@@ -1,18 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-  background: #F5F5DC;
-}
-header {
-  background: #7497B0;
-}
+/* Base Rules =============================== */
+
 header h1 {
   font-weight: bold;
   color: #eee;
   margin-top: 10px;
 }
 
+article {
+  padding: 0px 50px 20px 20px;
+  margin: 20px 20px 20px 0px;
+}
+
+article h2 {
+  padding:5px 20px;
+  margin-left: -20px;
+  margin-right: -50px;
+
+}
+
+article ul {margin: 20px 0px;}
+article ul ul {margin: 10px 0px;}
 
 .searchinput {
   -webkit-box-sizing: border-box;
@@ -49,8 +59,6 @@ header h1 {
 }
 .nav li a {
   text-align: center;
-}
-.nav li a {
   padding: 5px 10px;
 }
 .nav li a {
@@ -64,6 +72,7 @@ header h1 {
   font-weight: bold;
 }
 
+/* State Rules =============================== */
 
 @media (max-width: 767px) { 
   #lecture_nav {
@@ -81,3 +90,24 @@ header h1 {
 @media (min-width: 1200px) {
 
 }
+
+/* Theme Rules =============================== */
+
+body {
+  background: #F5F5DC;
+}
+header {
+  background: #7497B0;
+}
+
+article {
+  background-color: rgba(33,33,33,0.1);
+}
+
+article h2 {
+  background-color:#7497B0;
+}
+
+
+
+
