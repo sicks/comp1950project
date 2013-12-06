@@ -2,6 +2,9 @@
 /* CSS Document */
 
 /* Base Rules =============================== */
+header {
+  padding-top: 10px;
+}
 
 header h1 {
   font-weight: bold;
@@ -11,7 +14,7 @@ header h1 {
 
 article {
   padding: 0px 50px 20px 20px;
-  margin: 20px 20px 20px 0px;
+  margin: 20px 20px 20px -10px;
 }
 
 article h2 {
@@ -23,6 +26,8 @@ article h2 {
 
 article ul {margin: 20px 0px;}
 article ul ul {margin: 10px 0px;}
+
+article p {margin-left: 20px;}
 
 .searchinput {
   -webkit-box-sizing: border-box;
@@ -52,6 +57,7 @@ article ul ul {margin: 10px 0px;}
 }
 
 .main ul.nav {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 .nav li {
@@ -94,28 +100,31 @@ article ul ul {margin: 10px 0px;}
 /* Theme Rules =============================== */
 
 body {
-  background: #fff;
-  font-family: 'Lato';
+  background: #eee;
+  font-family: 'Lato','Helvetica',sans-serif;
   font-weight:400;
+  font-size: 1.6em;
 }
 
 header {
-  background: #7497B0;
+  background-color: #fff;
 }
 
+header h1 {color: #0a6dff;}
+
 h1,h2,h3 {
-  font-family: 'Montserrat';
+  font-family: 'Roboto Slab','Helvetica',sans-serif;
   font-weight:500;
 }
 
-h1,h2 {color:#eee;}
+h2 {color:#eee;}
 
 article {
   background-color: rgba(33,33,33,0.1);
 }
 
 article h2 {
-  background-color:#7497B0;
+  background-color:#919191;
 }
 
 
