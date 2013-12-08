@@ -64,8 +64,6 @@ article p {margin-left: 20px;}
 .nav li a {
   text-align: center;
   padding: 5px 10px;
-}
-.nav li a {
   background: #BFC6C0;
 }
 .nav li:hover a {
@@ -74,6 +72,19 @@ article p {margin-left: 20px;}
 .nav li.active a {
   background: #B4BDBA;
   font-weight: bold;
+}
+.nav li > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#other_links ul, #lecture_list ul {
+  margin: 0 2px;
+  padding: 0;
+  display: none;
+}
+#other_links ul > li a, #lecture_list ul > li a {
+  background: #CAD0C5;
 }
 
 /* State Rules =============================== */
@@ -94,7 +105,6 @@ article p {margin-left: 20px;}
 @media (min-width: 1200px) {
 
 }
-
 /* Theme Rules =============================== */
 
 body {
@@ -108,14 +118,18 @@ header {
   background-color: #fff;
 }
 
-header h1 {color: #0a6dff;}
+header h1 {
+  color: #0a6dff;
+}
 
 h1,h2,h3 {
   font-family: 'Roboto Slab','Helvetica',sans-serif;
   font-weight:500;
 }
 
-h2 {color:#eee;}
+h2 {
+  color:#eee;
+}
 
 article {
   background-color: rgba(33,33,33,0.1);
