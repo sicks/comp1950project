@@ -161,13 +161,38 @@ footer {
 }
 
 footer a {
-  color:#fff;
+  color:#eee;
 }
 
 footer a:hover {
-  color:#333;
+  color:#aaa;
   text-decoration: none;
 }
+
+footer section.contact figure {
+  display: block;
+}
+footer section.contact img {
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  display:inline-block;
+  position: relative;
+  bottom:18px;
+}
+
+footer section.contact figcaption {
+  font-size: 1.4em;
+  color:#fff;
+}
+
+footer section.contact em {font-weight: 600;}
+
+footer section.contact .left_float {
+  display:inline-block;
+  margin-left: 10px;
+}
+
 
 
 
