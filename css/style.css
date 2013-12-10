@@ -72,11 +72,11 @@ footer {
   color:#0A6DFF;
   background: #f9f9f9;
 }
-.nav li:hover a {
+.nav > li:hover > a {
   background: #0A6DFF;
   color:#fff;
 }
-.nav li.active a {
+.nav > li.active > a {
   border-left: 2px solid #0A6DFF;
   font-weight: bold;
 }
@@ -86,12 +86,12 @@ footer {
   list-style: none;
 }
 #other_links ul, #lecture_list ul {
-  margin: 0 2px;
+  margin: 0 3px;
   padding: 0;
   display: none;
 }
 #other_links ul > li a, #lecture_list ul > li a {
-  background: #CAD0C5;
+  background: #e0e0e0;
 }
 #other_links ul > li a:hover, #lecture_list ul > li a:hover {
   background: #555;
