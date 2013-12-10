@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /* Base Rules =============================== */
+header {padding:20px 0px 10px;}
 
 header h1 {
   font-weight: bold;
@@ -26,17 +27,21 @@ article ul ul {margin: 10px 0px;}
 
 article p {margin-left: 20px;}
 
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
 .searchinput {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  border: 1px solid #222;
-  border-radius: 3px;
   padding: 3px;
   position: relative;
-  background: #fff;
+  background: #fefefe;
   margin-top: 12px;
 }
 .searchinput input {
@@ -64,13 +69,15 @@ article p {margin-left: 20px;}
 .nav li a {
   text-align: center;
   padding: 5px 10px;
-  background: #BFC6C0;
+  color:#0A6DFF;
+  background: #f9f9f9;
 }
 .nav li:hover a {
-  background: #CAD0C5;
+  background: #0A6DFF;
+  color:#fff;
 }
 .nav li.active a {
-  background: #B4BDBA;
+  border-left: 2px solid #0A6DFF;
   font-weight: bold;
 }
 .nav li > ul {
@@ -86,6 +93,10 @@ article p {margin-left: 20px;}
 #other_links ul > li a, #lecture_list ul > li a {
   background: #CAD0C5;
 }
+#other_links ul > li a:hover, #lecture_list ul > li a:hover {
+  background: #555;
+}
+
 
 /* State Rules =============================== */
 
@@ -128,17 +139,35 @@ h1,h2,h3 {
 }
 
 h2 {
-  color:#eee;
+  color:#333;
+  font-weight: 600;
+}
+
+h3 {
+  border-left: 3px solid #333;
+  padding-left: 7px;
 }
 
 article {
-  background-color: rgba(33,33,33,0.1);
+  background-color: #fff;
 }
 
 article h2 {
-  background-color:#919191;
+  background-color:#ccc;
 }
 
+footer {
+  background-color: #0a6dff;
+}
+
+footer a {
+  color:#fff;
+}
+
+footer a:hover {
+  color:#333;
+  text-decoration: none;
+}
 
 
 
