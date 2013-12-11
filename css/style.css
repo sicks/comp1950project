@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Base Rules =============================== */
-header {padding:20px 0px 10px;}
+header {padding:20px 0px 0px;}
 
 header #bcit_logo {
   display: inline-block;
@@ -26,11 +26,18 @@ header h2 {
 
 header h1 {
   font-weight: bold;
-  color: #eee;
   margin-left: 0px;
   margin-bottom: 10px;
   margin-top: 0px;
 }
+
+header .breadcrumb {
+  padding:2px 0px;
+  margin: 0px;
+  height:25px;
+}
+
+header .breadcrumb p {margin:0px;}
 
 
 
@@ -156,6 +163,15 @@ header {
 header h1 {
   color: #0a6dff;
 }
+
+header .breadcrumb {
+  background-color: #aaa;
+  color:#fff;
+  font-size: 0.9em;
+  border-radius: 0px;
+}
+
+header em {font-weight: 600;font-style: normal;}
 
 h1,h2,h3 {
   font-family: 'Roboto Slab','Helvetica',sans-serif;
