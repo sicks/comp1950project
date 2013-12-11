@@ -234,7 +234,9 @@ footer section.contact .left_float {
   display:inline-block;
   width:auto;
 }
-
+footer section.contact .left_float p {
+ margin: 0;
+}
 footer section.valdtr_links a,
 footer section.login_link a {
   display: inline-block;
@@ -250,8 +252,12 @@ footer section.login_link a:hover {
   color:#0a6dff;
 }
 
-
-
+div.intro {
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 20px 0;
+  background: #fff;
+}
 
 
 
