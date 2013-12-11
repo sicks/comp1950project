@@ -34,7 +34,6 @@ header h1 {
 header .breadcrumb {
   padding:2px 0px;
   margin: 0px;
-  height:25px;
 }
 
 header .breadcrumb p {margin:0px;}
@@ -73,7 +72,7 @@ footer {
   padding: 3px;
   position: relative;
   background: #fefefe;
-  margin-top: 12px;
+  margin:12px 5px 12px 0px;
 }
 .searchinput input {
   background: none;
