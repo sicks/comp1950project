@@ -4,11 +4,35 @@
 /* Base Rules =============================== */
 header {padding:20px 0px 10px;}
 
+header #bcit_logo {
+  display: inline-block;
+  height:20px;
+  position: relative;
+  margin:0px;
+
+}
+
+header h2 {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  margin:0px;
+  position: relative;
+  top:3px;
+  left:2px;
+}
+
+
 header h1 {
   font-weight: bold;
   color: #eee;
-  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
+
+
 
 article {
   padding: 0px 50px 20px 20px;
