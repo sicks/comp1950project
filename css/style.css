@@ -195,6 +195,34 @@ article h2 {
   background-color:#ccc;
 }
 
+article.post header h2 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  position: static;
+  display: block;
+}
+article.post .body figure {
+  text-align: center;
+}
+article.post footer {
+  padding: 20px;
+  margin-left: -20px;
+  margin-right: -50px;
+  margin-bottom: -20px;
+  text-align: center;
+  color: #fff;
+}
+article.post footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+article.post footer li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
 footer {
   background-color: #0a6dff;
 }
