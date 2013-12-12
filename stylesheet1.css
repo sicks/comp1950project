@@ -1,0 +1,162 @@
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+	display: block;
+	}
+
+/* standard body */
+body {
+	margin: 0 auto;
+	width: 960px;
+	font: 16px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	background: #a9a9a9;
+	}
+	
+/* standard alignments */
+.alignleft {
+	float: left;
+	}
+
+
+.alignright {
+	float: right;
+	}
+
+	
+.center {
+	text-align: center;
+	}
+
+/* Hx tags */
+
+h1 {
+	font-size: 35px;
+	padding: 20px 0;
+	}
+
+h2 {
+	font-size: 28px;
+	padding: 20px 0;
+	}
+
+h3 {
+	font-size: 18px;
+	padding: 10px 0;
+	}
+
+p {
+	padding-bottom: 20px;
+	}
+
+/* intro */
+
+#intro {
+	position: relative;
+	margin-top: 50px;
+	padding: 44px;
+	background: #467612 ;
+		
+	/* background size */
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	-khtml-background-size: 100%;
+
+	
+	/* curved border radius */
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	}
+	
+#intro h2, #intro p {
+	font-style:italic;
+	position: relative;
+	z-index: 9999;
+	width: 350px;
+	}
+	
+#intro h2 {
+	padding: 0 0 20px 0;
+	font-weight: normal;
+	color: #fff;
+	}
+	
+#intro p {
+	padding: 0;
+	color: #d9f499;
+	}
+	
+
+/* content layout */
+
+#content {
+	float: left; 
+	width: 920px; 
+	margin:10px 5px 10px 0; 
+	padding:5px 20px 5px 20px;
+	background-color: #f2f2f2;
+	
+/* curved border radius */
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+/* article */
+.articlecontent header p, .blogPost header p a {
+	font-size: 14px;
+	font-style: italic;
+	color: #777;
+	}
+
+.articlecontent p a {
+	color: #4F7E12;
+	}
+.articlecontent ul{
+padding: 10px;
+
+}
+th, td { 
+border: 1px solid black;
+padding: 5px; }
+
+table { 
+border: 2px solid black;
+border-collapse: separate; border-spacing: 5px; } 
+
+th, td { vertical-align: top; }
+
+table { margin: 0 auto; }
+
+
+	
+	
+
+/*footer */
+footer {
+	clear: both;
+	background: #222;
+	width: 960px;
+	color: #fff;
+	margin-bottom: 10px;
+	
+	/* curved border radius */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+
+footer p {
+  text-align: right;
+  font-size: 11px;
+	padding-right: 20px;
+	}
+
+footer a {
+	color: #999;
+	}
+	
+
