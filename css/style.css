@@ -251,20 +251,16 @@ footer section.contact img {
 }
 
 footer section.contact figcaption {
-  font-size: 1.2em;
   color:#fff;
   margin-bottom: -3px;
-}
-
-footer section.contact em {font-weight: 600;}
-
-footer section.contact .left_float {
   display:inline-block;
   width:auto;
 }
-footer section.contact .left_float p {
- margin: 0;
-}
+
+footer section.contact figcaption p {margin: 0;}
+footer section.contact em {font-weight: 600;}
+
+
 footer section.valdtr_links a,
 footer section.login_link a {
   display: inline-block;
